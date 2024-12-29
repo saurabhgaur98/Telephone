@@ -62,7 +62,7 @@ import java.io.PrintStream;
 import java.io.*;
 import java.util.*; //Scanner
 
-public class P3 { //Telephone_Project
+public class Telephone { //Telephone_Project
     BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 	String teleno,fname,lname,street,city,state,country,pincode;
 
@@ -732,7 +732,7 @@ public class P3 { //Telephone_Project
 
     public static void main(String[] args)
 	{
-		P3 f=new P3();
+		Telephone f=new Telephone();
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		int op=0;
 		try
